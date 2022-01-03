@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IMaher regression suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="regression test(failed)">
+    <classes>
+      <class name="tests.EngineerCompleteWorkOrderTest">
+        <methods>
+          <include name="LogInEngineerAccount"/>
+          <include name="closeDriver"/>
+          <include name="screenshootOnFailure"/>
+          <include name="EngineerApprovingAndWorkOnOrder"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.EngineerCompleteWorkOrderTest -->
+      <class name="tests.CreateWorkOrderTest">
+        <methods>
+          <include name="LogInEngineerAccount"/>
+          <include name="UserCanCreateWorkOrder"/>
+          <include name="UserCanLoginSuccessfully"/>
+          <include name="EngineerApprovingAndWorkOnOrder"/>
+          <include name="closeDriver"/>
+          <include name="screenshootOnFailure"/>
+          <include name="LogOutFromAdminAccount"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.CreateWorkOrderTest -->
+    </classes>
+  </test> <!-- regression test(failed) -->
+</suite> <!-- Failed suite [IMaher regression suite] -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-31T21:37:31 EET" name="Default suite" finished-at="2021-12-31T21:38:15 EET" duration-ms="44199">
+    <groups>
+    </groups>
+    <test started-at="2021-12-31T21:37:31 EET" name="Default test" finished-at="2021-12-31T21:38:15 EET" duration-ms="44199">
+      <class name="tests.CreateNewBranchTest">
+        <test-method is-config="true" signature="openDriver(java.lang.String)[pri:0, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:37:22 EET" name="openDriver" finished-at="2021-12-31T21:37:31 EET" duration-ms="8520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method signature="UserCanLoginSuccessfully()[pri:1, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:37:31 EET" name="UserCanLoginSuccessfully" finished-at="2021-12-31T21:37:31 EET" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLoginSuccessfully -->
+        <test-method is-config="true" signature="screenshootOnFailure(org.testng.ITestResult)[pri:0, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:37:31 EET" name="screenshootOnFailure" finished-at="2021-12-31T21:37:31 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLoginSuccessfully status=SUCCESS method=CreateNewBranchTest.UserCanLoginSuccessfully()[pri:1, instance:tests.CreateNewBranchTest@48f278eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshootOnFailure -->
+        <test-method signature="UserCanOpenBranchesPage()[pri:2, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:37:31 EET" name="UserCanOpenBranchesPage" finished-at="2021-12-31T21:37:40 EET" duration-ms="9242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanOpenBranchesPage -->
+        <test-method is-config="true" signature="screenshootOnFailure(org.testng.ITestResult)[pri:0, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:37:40 EET" name="screenshootOnFailure" finished-at="2021-12-31T21:37:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanOpenBranchesPage status=SUCCESS method=CreateNewBranchTest.UserCanOpenBranchesPage()[pri:2, instance:tests.CreateNewBranchTest@48f278eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshootOnFailure -->
+        <test-method signature="UserCanAddNewBranch()[pri:3, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:37:40 EET" name="UserCanAddNewBranch" finished-at="2021-12-31T21:38:09 EET" duration-ms="28075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddNewBranch -->
+        <test-method is-config="true" signature="screenshootOnFailure(org.testng.ITestResult)[pri:0, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:38:09 EET" name="screenshootOnFailure" finished-at="2021-12-31T21:38:09 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddNewBranch status=SUCCESS method=CreateNewBranchTest.UserCanAddNewBranch()[pri:3, instance:tests.CreateNewBranchTest@48f278eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshootOnFailure -->
+        <test-method signature="MakeSureThaCustomerAdded()[pri:4, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:38:09 EET" name="MakeSureThaCustomerAdded" finished-at="2021-12-31T21:38:15 EET" duration-ms="6347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeSureThaCustomerAdded -->
+        <test-method is-config="true" signature="screenshootOnFailure(org.testng.ITestResult)[pri:0, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:38:15 EET" name="screenshootOnFailure" finished-at="2021-12-31T21:38:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MakeSureThaCustomerAdded status=SUCCESS method=CreateNewBranchTest.MakeSureThaCustomerAdded()[pri:4, instance:tests.CreateNewBranchTest@48f278eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshootOnFailure -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.CreateNewBranchTest@48f278eb]" started-at="2021-12-31T21:38:15 EET" name="closeDriver" finished-at="2021-12-31T21:38:15 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.CreateNewBranchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
